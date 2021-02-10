@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Save Our Environment</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 1px grey solid;">
+        <a class="navbar-brand" style="font-weight: 600;" href="/index.html">Let's Save Our Environment</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav m-auto">
+            
+            <li class="">
+              <a class="nav-link" href="/index.html" style="font-weight: 500;">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/templates/post_view.html" style="font-weight: 500;">Posts</a>
+            </li>
+            <li class="">
+              <a class="nav-link" href="/templates/event_view.html" style="font-weight: 500;">Events</a>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/templates/regi_logi.html" style="font-weight: 500;">Registration/Login</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    
+<div class="post_list" id="post_list" style="background-color: lightgray;">
+    <div class="p-2" style="border-bottom: 1px solid gray;">
+        <div class="container">
+            <div class="text-center">
+                <h3><span class="badge badge-primary">Create Your Post</span></h3>
+            </div>
+            <form action=""  class="write_post">
+                <div class="form-group mb-0">
+                    <textarea name="body" cols="40" rows="2" class="form-control bg-light" placeholder="Write A Caption..." required="" id="id_body"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group badge badge-dark mb-0">
+                            <label style="font-weight: 600;">Add Image: </label>
+                            <input type="file" name="image" id="id_image">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" style="font-weight: 600;" class="btn btn-dark btn-sm mt-2">Post</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center">
+            <h3><span class="badge badge-success">All Posts</span></h3>
+        </div>
+        
+        <div class="media pb-3" id="post31">
+            <img src="/media/uploads/Screenshot_36.png" class="mr-3 rounded-circle " style="width:50px;">
+            <div class="media-body" style="color: black;font-weight: 600;">
+                <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/7.html">cleaner06</a><small style="color: rgb(126, 54, 54);"><i>
+                            Posted on
+                            Feb. 7, 2021</i></small></h5>
+                <p style="font-size: large;padding-left: 25px;">Another Mission is completed by Team Cleaner. We clean up the whole garbage in front of Govt Science College. Now students can breath in a more clean environment.</p>
+                
+                
+                <button style="border:none;padding: 0;" type="button" data-toggle="modal" data-target="#image_modal">
+                    <div style="height: 200px;width: 200px;">
+                        <img id="myImg" src="/images/images.jpg" alt="image" style="width: 100%;
+                    height: 100%;
+                    object-fit: cover;">
+                </div>
+                </button>
+                
+                <div class="modal fade" id="image_modal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+    
+                            <div class="modal-body">
+                                <img src="/media/uploads/images.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-success"><a class="text-light" href="/media/uploads/images.jpg" download="">Download</a></button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">6</span></button></a>
+                
+                
+                <a href="/templates/post1.html"><button type="button" class="btn btn-success btn-sm py-0" style="font-weight: 600;">Comments <span class="badge badge-light">0</span></button></a>
+                
+            </div>
+        </div>
+        
+        <div class="media pb-3" id="post30">
+            <img src="/media/uploads/rsz_111_BAMLUY1.jpg" class="mr-3 rounded-circle " style="width:50px;">
+            <div class="media-body" style="color: black;font-weight: 600;">
+                <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/5.html">Akash4</a><small style="color: rgb(126, 54, 54);"><i>
+                            Posted on
+                            Feb. 7, 2021</i></small></h5>
+                <p style="font-size: large;padding-left: 25px;">Though its a little task, but it makes me happy. We should throw our unused bottles in dustbin, not in the roads.</p>
+                
+                
+                <button style="border:none;padding: 0;" type="button" data-toggle="modal" data-target="#image_modal">
+                    <div style="height: 200px;width: 200px;">
+                        <img id="myImg" src="/media/uploads/waste_bin_dhaka.jpg" alt="image" style="width: 100%;
+                    height: 100%;
+                    object-fit: cover;">
+                </div>
+                </button>
+                
+                <div class="modal fade" id="image_modal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+    
+                            <div class="modal-body">
+                                <img src="/media/uploads/waste_bin_dhaka.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-success"><a class="text-light" href="/media/uploads/waste_bin_dhaka.jpg" download="">Download</a></button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">4</span></button></a>
+                
+                
+                <a href="/templates/post2.html"><button type="button" class="btn btn-success btn-sm py-0" style="font-weight: 600;">Comments <span class="badge badge-light">1</span></button></a>
+                
+            </div>
+        </div>
+        
+        <div class="media pb-3" id="post29">
+            <img src="/media/uploads/IMG_20210204_102430_e5YkkWh.jpg" class="mr-3 rounded-circle " style="width:50px;">
+            <div class="media-body" style="color: black;font-weight: 600;">
+                <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/1.html">mukit24</a><small style="color: rgb(126, 54, 54);"><i>
+                            Posted on
+                            Feb. 7, 2021</i></small></h5>
+                <p style="font-size: large;padding-left: 25px;">That's great. Yesterday I went to my primary school. Then gave a lecture about environment and tree plantation and told them about my plan of tree plantation in the school. Look today, I have these little kids who help me in this activity.</p>
+                
+                
+                <button style="border:none;padding: 0;" type="button" data-toggle="modal" data-target="#image_modal">
+                    <div style="height: 200px;width: 200px;">
+                        <img id="myImg" src="/media/uploads/Tree-plantation1_52mOgKm.jpg" alt="image" style="width: 100%;
+                    height: 100%;
+                    object-fit: cover;">
+                </div>
+                </button>
+                
+                <div class="modal fade" id="image_modal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+    
+                            <div class="modal-body">
+                                <img src="/media/uploads/Tree-plantation1_52mOgKm.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-success"><a class="text-light" href="/media/uploads/Tree-plantation1_52mOgKm.jpg" download="">Download</a></button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">4</span></button></a>
+                
+                
+                <a href="/templates/post3.html"><button type="button" class="btn btn-success btn-sm py-0" style="font-weight: 600;">Comments <span class="badge badge-light">1</span></button></a>
+                
+            </div>
+        </div>
+        
+        <div class="media pb-3" id="post28">
+            <img src="/media/uploads/social.jpg" class="mr-3 rounded-circle " style="width:50px;">
+            <div class="media-body" style="color: black;font-weight: 600;">
+                <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/2.html">Rahim1</a><small style="color: rgb(126, 54, 54);"><i>
+                            Posted on
+                            Feb. 7, 2021</i></small></h5>
+                <p style="font-size: large;padding-left: 25px;">Thanks everyone who contributed in our tree plantation program. Today we have planted around 100 trees.</p>
+                
+                
+                <button style="border:none;padding: 0;" type="button" data-toggle="modal" data-target="#image_modal">
+                    <div style="height: 200px;width: 200px;">
+                        <img id="myImg" src="/media/uploads/images_1.jpg" alt="image" style="width: 100%;
+                    height: 100%;
+                    object-fit: cover;">
+                </div>
+                </button>
+                
+                <div class="modal fade" id="image_modal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+    
+                            <div class="modal-body">
+                                <img src="/media/uploads/images_1.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-success"><a class="text-light" href="/media/uploads/images_1.jpg" download="">Download</a></button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">3</span></button></a>
+                
+                
+                <a href="/templates/post4.html"><button type="button" class="btn btn-success btn-sm py-0" style="font-weight: 600;">Comments <span class="badge badge-light">1</span></button></a>
+                
+            </div>
+        </div>
+        
+        <div class="media pb-3" id="post27">
+            <img src="/media/uploads/social.jpg" class="mr-3 rounded-circle " style="width:50px;">
+            <div class="media-body" style="color: black;font-weight: 600;">
+                <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/2.html">Rahim1</a><small style="color: rgb(126, 54, 54);"><i>
+                            Posted on
+                            Feb. 7, 2021</i></small></h5>
+                <p style="font-size: large;padding-left: 25px;">Another voluntary activity is done.</p>
+                
+                
+                <button style="border:none;padding: 0;" type="button" data-toggle="modal" data-target="#image_modal">
+                    <div style="height: 200px;width: 200px;">
+                        <img id="myImg" src="/media/uploads/Waste-Management-Bangladesh.jpg" alt="image" style="width: 100%;
+                    height: 100%;
+                    object-fit: cover;">
+                </div>
+                </button>
+                
+                <div class="modal fade" id="image_modal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+    
+                            <div class="modal-body">
+                                <img src="/media/uploads/Waste-Management-Bangladesh.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-success"><a class="text-light" href="/media/uploads/Waste-Management-Bangladesh.jpg" download="">Download</a></button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">1</span></button></a>
+                
+                
+                <a href="/templates/post5.html"><button type="button" class="btn btn-success btn-sm py-0" style="font-weight: 600;">Comments <span class="badge badge-light">0</span></button></a>
+                
+            </div>
+        </div>
+        
+        
+        <ul class="pagination justify-content-center">
+            
+            
+            
+            <li class="page-item active"><a class="page-link" href="">1</a></li>
+            
+            
+            
+            <li class="page-item"><a class="page-link bg-dark text-light" href="/templates/post_view2.html">2</a></li>
+            
+            
+            
+            <li class="page-item"><a class="page-link bg-secondary text-light" href="/templates/post_view2.html">Next</a></li>
+            
+        </ul>
+        
+        <br>
+    </div>
+</div>
+
+
+
+</body></html>

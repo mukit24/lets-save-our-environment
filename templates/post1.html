@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Save Our Environment</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 1px grey solid;">
+        <a class="navbar-brand" style="font-weight: 600;" href="/">Let's Save Our Environment</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav m-auto">
+            
+            <li class="">
+              <a class="nav-link" href="/" style="font-weight: 500;">Home</a>
+            </li>
+            <li class="">
+              <a class="nav-link" href="/templates/post_view.html" style="font-weight: 500;">Posts</a>
+            </li>
+            <li class="">
+              <a class="nav-link" href="/templates/event_view.html" style="font-weight: 500;">Events</a>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/templates/regi_logi.html" style="font-weight: 500;">Registration/Login</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    
+
+<div style="background-color: lightgray;">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 p-3">
+            <div class="media p-3">
+                <img src="/media/uploads/Screenshot_36.png" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                <div class="media-body" style="color: black;font-weight: 600;">
+                    <h5 style="color: brown;font-weight: 700;"><a style="text-decoration: none;" href="/templates/profile_view/7.html">cleaner06</a><small style="color: rgb(126, 54, 54);"><i>
+                                Posted on
+                                Feb. 7, 2021</i></small></h5>
+                    <p style="font-size: large;padding-left: 25px;">Another Mission is completed by Team Cleaner. We clean up the whole garbage in front of Govt Science College. Now students can breath in a more clean environment.</p>
+                    
+                    <button style="border:none;padding: 0;margin-bottom: 10px;" type="button" data-toggle="modal" data-target="#image_modal">
+                        <div style="height: 200px;width: 200px;">
+                            <img id="myImg" src="/media/uploads/images.jpg" alt="image" style="width: 100%;
+                        height: 100%;
+                        object-fit: cover;">
+                        </div>
+                    </button>
+                    <br>
+                    
+                    <div class="modal fade" id="image_modal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+        
+                                <div class="modal-body">
+                                    <img src="/media/uploads/images.jpg" alt="image" style="width: 100%;
+                            height: 100%;
+                            object-fit: cover;">
+                                </div>
+        
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"><a class="text-light" href="/media/uploads/images.jpg" download="">Download</a></button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <a href=""><button type="button" class="btn btn-light py-0" style="font-weight: 600;"><i class="fa fa-heart-o" style="font-size: large;"></i> <span class="badge badge-dark">6</span></button></a>
+                
+                    
+                    <div id="update_post" class="collapse">
+                        <form class="p-2" action="/posts/posts/31/details/" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="YsOULLUDVUcCroBH2v3Pb6UFPWTJp0huysizhKj29IsfhXxj0s5FXV5qCunDnciB">
+                            <label for="id_body">Body:</label><textarea name="body" cols="40" rows="2" class="form-control" required="" id="id_body">Another Mission is completed by Team Cleaner. We clean up the whole garbage in front of Govt Science College. Now students can breath in a more clean environment.</textarea>
+<label for="id_image">Image:</label>Currently: <a href="/media/uploads/images.jpg">uploads/images.jpg</a>
+<input type="checkbox" name="image-clear" id="image-clear_id">
+<label for="image-clear_id">Clear</label><br>
+Change:
+<input type="file" name="image" class="form-control" id="id_image">
+                            <input type="submit" class="btn btn-success btn-sm mt-1" value="Done">
+                        </form>
+                    </div> 
+                    </div>
+                </div>
+                <div class="comments p-2">
+                    <div style="text-align: center;">
+                        <h5 class="bg-dark text-light p-1">Comments <span class="badge badge-light">0</span></h5></div>
+                    
+                                <!-- Modal body -->
+                                
+                                <h5 class="container">No Comments Here</h5>
+                                
+                                <script>
+                                    function reply_comment(name){
+                                        var a = document.getElementById('comment_reply')
+                                        a.value = '@'+name+' ';
+                                    }
+                                </script>
+                                    <form action="">
+                                        <input type="hidden" name="csrfmiddlewaretoken" value="YsOULLUDVUcCroBH2v3Pb6UFPWTJp0huysizhKj29IsfhXxj0s5FXV5qCunDnciB">
+                                        <div class="form-group">
+                                            <textarea name="body" cols="40" rows="1" class="form-control" placeholder="Leave a comment!" id="comment_reply" required=""></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                                    </form>
+                    
+                </div>
+                </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>
+
+
+
+</body></html>
